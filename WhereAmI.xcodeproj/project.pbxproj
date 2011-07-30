@@ -22,6 +22,8 @@
 		2277319613E30AA1002AA326 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2277319413E30AA1002AA326 /* InfoPlist.strings */; };
 		2277319913E30AA1002AA326 /* WhereAmITests.h in Resources */ = {isa = PBXBuildFile; fileRef = 2277319813E30AA1002AA326 /* WhereAmITests.h */; };
 		2277319B13E30AA1002AA326 /* WhereAmITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277319A13E30AA1002AA326 /* WhereAmITests.m */; };
+		2277325313E31013002AA326 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2277325213E31013002AA326 /* CoreLocation.framework */; };
+		2277325513E31019002AA326 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2277325413E31019002AA326 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +41,24 @@
 		2277316B13E30AA0002AA326 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2277316D13E30AA0002AA326 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2277316F13E30AA0002AA326 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2277317313E30AA0002AA326 /* WhereAmI-Info.plist */ = {isa = PBXFileReference; path = "WhereAmI-Info.plist"; sourceTree = "<group>"; };
+		2277317313E30AA0002AA326 /* WhereAmI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhereAmI-Info.plist"; sourceTree = "<group>"; };
 		2277317513E30AA0002AA326 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2277317713E30AA0002AA326 /* WhereAmI-Prefix.pch */ = {isa = PBXFileReference; path = "WhereAmI-Prefix.pch"; sourceTree = "<group>"; };
+		2277317713E30AA0002AA326 /* WhereAmI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhereAmI-Prefix.pch"; sourceTree = "<group>"; };
 		2277317813E30AA0002AA326 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2277317A13E30AA0002AA326 /* WhereAmIAppDelegate.h */ = {isa = PBXFileReference; path = WhereAmIAppDelegate.h; sourceTree = "<group>"; };
+		2277317A13E30AA0002AA326 /* WhereAmIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhereAmIAppDelegate.h; sourceTree = "<group>"; };
 		2277317B13E30AA0002AA326 /* WhereAmIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhereAmIAppDelegate.m; sourceTree = "<group>"; };
 		2277317E13E30AA1002AA326 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		2277318013E30AA1002AA326 /* WhereAmIViewController.h */ = {isa = PBXFileReference; path = WhereAmIViewController.h; sourceTree = "<group>"; };
+		2277318013E30AA1002AA326 /* WhereAmIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhereAmIViewController.h; sourceTree = "<group>"; };
 		2277318113E30AA1002AA326 /* WhereAmIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhereAmIViewController.m; sourceTree = "<group>"; };
 		2277318413E30AA1002AA326 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WhereAmIViewController.xib; sourceTree = "<group>"; };
 		2277318B13E30AA1002AA326 /* WhereAmITests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhereAmITests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2277319313E30AA1002AA326 /* WhereAmITests-Info.plist */ = {isa = PBXFileReference; path = "WhereAmITests-Info.plist"; sourceTree = "<group>"; };
+		2277319313E30AA1002AA326 /* WhereAmITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhereAmITests-Info.plist"; sourceTree = "<group>"; };
 		2277319513E30AA1002AA326 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2277319713E30AA1002AA326 /* WhereAmITests-Prefix.pch */ = {isa = PBXFileReference; path = "WhereAmITests-Prefix.pch"; sourceTree = "<group>"; };
+		2277319713E30AA1002AA326 /* WhereAmITests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhereAmITests-Prefix.pch"; sourceTree = "<group>"; };
 		2277319813E30AA1002AA326 /* WhereAmITests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhereAmITests.h; sourceTree = "<group>"; };
 		2277319A13E30AA1002AA326 /* WhereAmITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhereAmITests.m; sourceTree = "<group>"; };
+		2277325213E31013002AA326 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2277325413E31019002AA326 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2277325513E31019002AA326 /* MapKit.framework in Frameworks */,
+				2277325313E31013002AA326 /* CoreLocation.framework in Frameworks */,
 				2277316C13E30AA0002AA326 /* UIKit.framework in Frameworks */,
 				2277316E13E30AA0002AA326 /* Foundation.framework in Frameworks */,
 				2277317013E30AA0002AA326 /* CoreGraphics.framework in Frameworks */,
@@ -103,6 +109,8 @@
 		2277316A13E30AA0002AA326 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2277325413E31019002AA326 /* MapKit.framework */,
+				2277325213E31013002AA326 /* CoreLocation.framework */,
 				2277316B13E30AA0002AA326 /* UIKit.framework */,
 				2277316D13E30AA0002AA326 /* Foundation.framework */,
 				2277316F13E30AA0002AA326 /* CoreGraphics.framework */,
